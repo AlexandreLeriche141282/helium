@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    overflow: hidden;
+}
+body{
+    min-height: 100vh;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222020;
+}
+
+h2 {
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    width: 350px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header {
+    display: flex;
+    background: #222020;
+}
+
+.header-left {
+    /* border: solid 3px white; */
+    width: 50%;
+    margin-top: 250px;
+    padding-left: 30px;
+}
+
+.header-left-container h1 {
+    font-size: 5rem;
+}
+
+.header-left-container h3 {
+    color: #4d00ff;
+    font-size: 2rem;
+}
+
+.header-right img {
+    width: 75%;
+
+}
+
+.header-right {
+    /* border: solid 3px white; */
+    width:50%;
+    margin-top: 30px;
+    height: 650px;
+}
+
+.infos {
+
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.infos-left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+
+}
+
+.infos-right {
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+button {
+    color: white;
+    background: #4d00ff;
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.img-container img {
+    width: 100px;
+}
+
+.img-container {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.investors {
+    margin-top: 50px;
+    display: flex;
+    align-items: baseline;
+    /* justify-content: space-between; */
+
+}
